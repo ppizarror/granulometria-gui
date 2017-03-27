@@ -23,6 +23,7 @@ function table = create_granulometry_table(data)
 % along with this program; if not, write to the Free Software
 % Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
+%% Si el elemento no es un cell
 if ischar(data)
     error('Data must be an cell object, please use load_granulometry_data return value as parameter.');
 end
@@ -30,7 +31,7 @@ end
 data_len = length(data);
 table = cell(data_len, 1);
 
-% Se crea la masa retenida total
+%% Se crea la masa retenida total
 total_mass = 0.0;
 for i = 1:data_len
     try
@@ -40,12 +41,12 @@ for i = 1:data_len
     end
 end
 
-% Se completa la tabla
+%% Se completa la tabla
 for i = 1:data_len
     table{i} = [data{i}(1), data{i}(2), data{i}(3), data{i}(3) * 100 / total_mass, 0, 0];
 end
 
-% Se crea el porcentaje de material acumulado y que pasa
+%% Se crea el porcentaje de material acumulado y que pasa
 table{1}(5) = table{1}(4);
 table{1}(6) = 100 - table{1}(4);
 for i = 2:data_len

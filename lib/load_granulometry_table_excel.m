@@ -24,3 +24,4 @@ function table = load_granulometry_table_excel(excel_file)
 table = create_granulometry_table(load_granulometry_excel(excel_file));
 
 end
+

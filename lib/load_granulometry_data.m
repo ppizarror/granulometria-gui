@@ -21,7 +21,7 @@ function list = load_granulometry_data(file)
 % along with this program; if not, write to the Free Software
 % Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
-% Se carga el archivo
+%% Se carga el archivo
 f_id = fopen(file);
 if f_id == -1
     error('Error when loading %s file', file);
@@ -29,13 +29,13 @@ end
 f = textscan(f_id, '%s %s %s', 'delimiter', '\t');
 fclose(f_id);
 
-% Se crea una lista provisional
+%% Se crea una lista provisional
 f_len = length(f{1});
 p_list = cell(f_len, 1);
 header_line_validated = false;
 added_lines = 0;
 
-% Se recorre el archivo
+%% Se recorre el archivo
 for i = 1:f_len
     
     m = f{1}{i}; % Malla
@@ -90,7 +90,7 @@ for i = 1:f_len
     
 end
 
-% Se crea la lista definitiva
+%% Se crea la lista definitiva
 list = cell(added_lines, 1);
 
 k = 1;

@@ -18,204 +18,204 @@ function langlist = load_lang(langid)
 % along with this program; if not, write to the Free Software
 % Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
-%% Constants
+%% Constantes
 LANG_AVAIABLE_LANGUAGES = 2; % Español, English
-LANG_ENTRIES = 70; % Total language entries on cell structure
+LANG_ENTRIES = 70; % Entradas totales
 
-%% Check if langid is valid
+%% Chequea si el lenguaje seleccionado es válido
 if ~(1 <= langid && langid <= LANG_AVAIABLE_LANGUAGES)
     error('Invalid langid');
 end
 
-%% Create a list of data
+%% Crea listas de datos
 list = cell(LANG_ENTRIES, 1);
 for j = 1:LANG_ENTRIES
     list{j} = cell(1, LANG_AVAIABLE_LANGUAGES);
 end
 
-%% Add lang strings
-list{1, 1} = 'Select acceleration file';
-list{1, 2} = 'Seleccionar archivo de aceleraciones';
+%% Se añaden los strings a las listas
+list{1, 1} = '';
+list{1, 2} = '';
 
-list{2, 1} = 'Close app';
-list{2, 2} = 'Cerrar app';
+list{2, 1} = '';
+list{2, 2} = '';
 
-list{3, 1} = 'Acceleration plots';
-list{3, 2} = 'Gráficos de aceleraciones';
+list{3, 1} = '';
+list{3, 2} = '';
 
-list{4, 1} = 'AVERAGE SH/SV';
-list{4, 2} = 'SH/SV PROMEDIO';
+list{4, 1} = '';
+list{4, 2} = '';
 
-list{5, 1} = 'Iteration plots';
-list{5, 2} = 'Gráficos de iteraciones';
+list{5, 1} = '';
+list{5, 2} = '';
 
-list{6, 1} = 'Processing (%.1f%%)';
-list{6, 2} = 'Procesando (%.1f%%)';
+list{6, 1} = '';
+list{6, 2} = '';
 
-list{7, 1} = 'Select two points to create several windows (N-S)';
-list{7, 2} = 'Seleccione dos puntos para crear las ventanas (N-S)';
+list{7, 1} = '';
+list{7, 2} = '';
 
-list{8, 1} = 'Acceleration file (*.txt)';
-list{8, 2} = 'Archivo de aceleración (*.txt)';
+list{8, 1} = '';
+list{8, 2} = '';
 
-list{9, 1} = 'Please select a file';
-list{9, 2} = 'Porfavor seleccione un archivo';
+list{9, 1} = '';
+list{9, 2} = '';
 
-list{10, 1} = 'Please check that N-S (_N), E-W (_E) y Z (_Z) files exist in the same folder.';
-list{10, 2} = 'Porfavor revise que los archivos N-S (_N), E-W (_E) y Z (_Z) existan en la misma carpeta.';
+list{10, 1} = '';
+list{10, 2} = '';
 
-list{11, 1} = 'Error';
-list{11, 2} = 'Error';
+list{11, 1} = '';
+list{11, 2} = '';
 
-list{12, 1} = 'An error has occurred while loading the files.';
-list{12, 2} = 'Un error ocurrió mientras se cargaban los archivos.';
+list{12, 1} = '';
+list{12, 2} = '';
 
-list{13, 1} = 'Data must have the same size of elements.';
-list{13, 2} = 'Los datos deben tener la misma cantidad de elementos.';
+list{13, 1} = '';
+list{13, 2} = '';
 
-list{14, 1} = 'Data error';
-list{14, 2} = 'Error de datos';
+list{14, 1} = '';
+list{14, 2} = '';
 
-list{15, 1} = 'File error';
-list{15, 2} = 'Error de archivos';
+list{15, 1} = '';
+list{15, 2} = '';
 
-list{16, 1} = 'If region is not selected process cant continue.';
-list{16, 2} = 'Si la región no se ha seleccionado no se puede continuar.';
+list{16, 1} = '';
+list{16, 2} = '';
 
-list{17, 1} = 'Time (s)';
-list{17, 2} = 'Tiempo (s)';
+list{17, 1} = '';
+list{17, 2} = '';
 
-list{18, 1} = 'Acceleration (g)';
-list{18, 2} = 'Aceleración (g)';
+list{18, 1} = '';
+list{18, 2} = '';
 
-list{19, 1} = 'Enter window time properties';
-list{19, 2} = 'Ingrese las propiedades temporales de las ventanas';
+list{19, 1} = '';
+list{19, 2} = '';
 
-list{20, 1} = 'Window time move (s)';
-list{20, 2} = 'Movimiento temporal de las ventanas (s)';
+list{20, 1} = '';
+list{20, 2} = '';
 
-list{21, 1} = 'Window time size - Max: %.1f (s)';
-list{21, 2} = 'Tamaño de las ventanas - Max: %.1f (s)';
+list{21, 1} = '';
+list{21, 2} = '';
 
-list{22, 1} = 'Values must be numerical.';
-list{22, 2} = 'Los valores deben ser numéricos.';
+list{22, 1} = '';
+list{22, 2} = '';
 
-list{23, 1} = 'Value Error';
-list{23, 2} = 'Error de valores';
+list{23, 1} = '';
+list{23, 2} = '';
 
-list{24, 1} = 'Region limits cant be the same.';
-list{24, 2} = 'Los límites de la región no pueden ser idénticos.';
+list{24, 1} = '';
+list{24, 2} = '';
 
-list{25, 1} = 'Maximum frequency: %.3f [Hz]';
-list{25, 2} = 'Frecuencia máxima: %.3f [Hz]';
+list{25, 1} = '';
+list{25, 2} = '';
 
-list{26, 1} = 'Maximum SH/SV: %.3f';
-list{26, 2} = 'Máximo SH/SV: %.3f';
+list{26, 1} = '';
+list{26, 2} = '';
 
-list{27, 1} = 'Total iterations: %d';
-list{27, 2} = 'Número de iteraciones: %d';
+list{27, 1} = '';
+list{27, 2} = '';
 
-list{28, 1} = 'Execution time: %.1f [s]';
-list{28, 2} = 'Tiempo de ejecución: %.1f [s]';
+list{28, 1} = '';
+list{28, 2} = '';
 
-list{29, 1} = 'Process finished';
-list{29, 2} = 'Proceso finalizado';
+list{29, 1} = '';
+list{29, 2} = '';
 
-list{30, 1} = 'SH/SV v/s f';
-list{30, 2} = 'SH/SV v/s f';
+list{30, 1} = '';
+list{30, 2} = '';
 
-list{31, 1} = 'Frequency (Hz)';
-list{31, 2} = 'Frecuencia (Hz)';
+list{31, 1} = '';
+list{31, 2} = '';
 
-list{32, 1} = 'SH/SV';
-list{32, 2} = 'SH/SV';
+list{32, 1} = '';
+list{32, 2} = '';
 
-list{33, 1} = 'File';
-list{33, 2} = 'Archivo';
+list{33, 1} = '';
+list{33, 2} = '';
 
-list{34, 1} = 'Edit';
-list{34, 2} = 'Edición';
+list{34, 1} = '';
+list{34, 2} = '';
 
-list{35, 1} = 'Help';
-list{35, 2} = 'Ayuda';
+list{35, 1} = '';
+list{35, 2} = '';
 
-list{36, 1} = 'New';
-list{36, 2} = 'Nuevo';
+list{36, 1} = '';
+list{36, 2} = '';
 
-list{37, 1} = 'Export results';
-list{37, 2} = 'Exportar resultados';
+list{37, 1} = '';
+list{37, 2} = '';
 
-list{38, 1} = 'See manual';
-list{38, 2} = 'Ver el manual';
+list{38, 1} = '';
+list{38, 2} = '';
 
-list{39, 1} = 'About';
-list{39, 2} = 'Acerca de';
+list{39, 1} = '';
+list{39, 2} = '';
 
-list{40, 1} = 'Author: Pablo Pizarro @ppizarror.com, 2017.';
-list{40, 2} = 'Autor: Pablo Pizarro @ppizarror.com, 2017.';
+list{40, 1} = '';
+list{40, 2} = '';
 
-list{41, 1} = 'Thanks to: Felipe Ochoa.';
-list{41, 2} = 'Agradecimientos a: Felipe Ochoa.';
+list{41, 1} = '';
+list{41, 2} = '';
 
-list{42, 1} = 'HOVSR is a Matlab app that calculates h/v spectrum ratio.';
-list{42, 2} = 'HOVSR es una app en Matlab que calcula la razón espectral h/v.';
+list{42, 1} = '';
+list{42, 2} = '';
 
-list{43, 1} = 'Licence: GLP-2.0';
-list{43, 2} = 'Licencia: GPL-2.0';
+list{43, 1} = '';
+list{43, 2} = '';
 
-list{44, 1} = 'Project website: https://github.com/ppizarror/HOVSR';
-list{44, 2} = 'Web del proyecto: https://github.com/ppizarror/HOVSR';
+list{44, 1} = '';
+list{44, 2} = '';
 
-list{45, 1} = 'Software version: %.1f';
-list{45, 2} = 'Versión del software: %.1f';
+list{45, 1} = '';
+list{45, 2} = '';
 
-list{46, 1} = 'Text file (*.txt)';
-list{46, 2} = 'Archivo de texto (*.txt)';
+list{46, 1} = '';
+list{46, 2} = '';
 
-list{47, 1} = 'Export results as';
-list{47, 2} = 'Exportar resultados como';
+list{47, 1} = '';
+list{47, 2} = '';
 
-list{48, 1} = 'Results are not calcualted.';
-list{48, 2} = 'Los resultados no existen.';
+list{48, 1} = '';
+list{48, 2} = '';
 
-list{49, 1} = 'Fatal Error';
-list{49, 2} = 'Error Fatal';
+list{49, 1} = '';
+list{49, 2} = '';
 
-list{50, 1} = 'Error when saving results.';
-list{50, 2} = 'Error al guardar los resultados.';
+list{50, 1} = '';
+list{50, 2} = '';
 
-list{51, 1} = 'Results saved successfully';
-list{51, 2} = 'Archivo guardado correctamente';
+list{51, 1} = '';
+list{51, 2} = '';
 
-list{52, 1} = 'Process completed';
-list{52, 2} = 'Proceso terminado';
+list{52, 1} = '';
+list{52, 2} = '';
 
-list{53, 1} = '(1): Select acceleration files (E-W, N-S and Z), only 3 files.';
-list{53, 2} = '(1): Buscar los archivos de aceleración (E-W, N-S y Z), sólo se pueden seleccionar 3 archivos.';
+list{53, 1} = '';
+list{53, 2} = '';
 
-list{54, 1} = '(2): Select a region of the data to start the process.';
-list{54, 2} = '(2): Seleccione una región de los datos para comenzar el proceso.';
+list{54, 1} = '';
+list{54, 2} = '';
 
-list{55, 1} = '(3): Define the window size (in seconds) and the movement of the window.';
-list{55, 2} = '(3): Defina el tamaño de la ventana y el movimiento de ella en segundos.';
+list{55, 1} = '';
+list{55, 2} = '';
 
-list{56, 1} = '(4): The iteration process will start and sh/sv vs f plot will apear.';
-list{56, 2} = '(4): El proceso de iteración dará comienzo y se mostrará el gráfico de sh/sv vs f.';
+list{56, 1} = '';
+list{56, 2} = '';
 
-list{57, 1} = '(5): Results (f vs sh/sv) can be exported to a file if Export Results button is pressed.';
-list{57, 2} = '(5): Los resultados (f vs sh/sv) pueden ser exportados a un archivo si se presiona el boton Exportar Resultados.';
+list{57, 1} = '';
+list{57, 2} = '';
 
-list{58, 1} = 'Manual';
-list{58, 2} = 'Manual';
+list{58, 1} = '';
+list{58, 2} = '';
 
-list{59, 1} = 'Operation cancelled by user.';
-list{59, 2} = 'Operación cancelada.';
+list{59, 1} = '';
+list{59, 2} = '';
 
-list{60, 1} = 'You must choose 3 files.';
-list{60, 2} = 'Debes elegir 3 archivos.';
+list{60, 1} = '';
+list{60, 2} = '';
 
-list{61, 1} = 'An error has occurred while smoothing the spectrum.';
-list{61, 2} = 'Ocurrió un error mientras se suavizaba el espectro.';
+list{61, 1} = '';
+list{61, 2} = '';
 
 list{62, 1} = '';
 list{62, 2} = '';
@@ -245,7 +245,7 @@ list{70, 1} = '';
 list{70, 2} = '';
 
 
-%% Create list of choise
+%% Se selecciona la lista
 langlist = cell(LANG_ENTRIES, 1);
 for j = 1:LANG_ENTRIES
     langlist{j} = list{j, langid};

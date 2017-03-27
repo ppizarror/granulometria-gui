@@ -17,10 +17,10 @@ function list = load_granulometry_excel(excel_file)
 % MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 % GNU General Public License for more details.
 
-% Se importan configuraciones
+%% Se importan configuraciones
 config;
 
-% Se carga el archivo
+%% Se carga el archivo
 [~, ~, raw] = xlsread(excel_file);
 
 % Se comprueban las dimensiones
@@ -31,7 +31,7 @@ if nCols ~= 3
     error('Excel only can have 3 columns');
 end
 
-% Se crea la lista
+%% Se crea la lista
 list = cell(nRows-1, 1);
 for j = 1:nRows - 1
     

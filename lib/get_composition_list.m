@@ -23,10 +23,10 @@ function composition_list = get_composition_list(granulometry_table)
 % along with this program; if not, write to the Free Software
 % Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
-% Se importan las configuraciones
+%% Se importan las configuraciones
 config;
 
-% Se obtiene el total de gravas
+%% Se obtiene el total de gravas
 try
     total_gravel = 0;
     for i = 1:length(granulometry_table) - 1
@@ -42,7 +42,7 @@ catch
     disp('Error when calculating total gravel in granulometry table.');
 end
 
-% Se pobtiene el total de arenas
+%% Se obtiene el total de arenas
 try
     total_f = 0;
     for i = 1:length(granulometry_table)
@@ -54,10 +54,10 @@ catch
     error('Error when calculating total sand in granulometry table.');
 end
 
-% Se calcula el total de finos
+%% Se calcula el total de finos
 total_sand = 100 - (total_f + total_gravel);
 
-% Se retorna la lista
+%% Se retorna la lista
 composition_list = [total_gravel, total_sand, total_f];
 
 end

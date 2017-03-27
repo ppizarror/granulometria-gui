@@ -17,10 +17,10 @@ function generate_gravel_groupname()
 % Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 try
-    % Se instancia la lista
+    %% Se instancia la lista
     list = groupname_creator(22);
     
-    % Se añaden los parámetros a la lista
+    %% Se añaden los parámetros a la lista
     list{1, 1} = [0, 0, -1, 0, 0];
     list{1, 2} = 'Well-graded gravel';
     
@@ -87,7 +87,7 @@ try
     list{22, 1} = [2, -1, 2, 8, 1];
     list{22, 2} = 'Silty, clayey gravel with sand';
     
-    % Se guarda la lista
+    %% Se guarda la lista
     save gravel_groupname.mat list;
     
 catch ME

@@ -26,14 +26,14 @@ function c = get_sand_group_name(pfines, cu, cc, fines, pgravel)
 % along with this program; if not, write to the Free Software
 % Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
-% Se obtienen los índices según los parámetros de la clasificación
+%% Se obtienen los índices según los parámetros de la clasificación
 f = indx_fines_p(pfines);
 cucc = indx_cucc(cu, cc, 1);
 tf = indx_fines_n(fines);
 ps = indx_sg_percentage(pgravel, 0);
 t_prop = [f, cucc, tf, -1, ps];
 
-% Se carga la lista de grupos para las gravas
+%% Se carga la lista de grupos para las gravas
 try
     sand_list = load('sand_groupname.mat');
 catch ME
@@ -42,7 +42,7 @@ end
 sand_list = sand_list.list;
 sand_list_size = length(sand_list);
 
-% Se busca el elemento en la lista
+%% Se busca el elemento en la lista
 for i = 1:sand_list_size
     propr = sand_list{i, 1}; % Se obtienen las propiedades del grupo
     if isequal_gn(t_prop, propr)
@@ -51,7 +51,7 @@ for i = 1:sand_list_size
     end
 end
 
-% Si no se encuentra se lanza error
+%% Si no se encuentra se lanza error
 error('Sand classification (group name) does not exist');
 
 end

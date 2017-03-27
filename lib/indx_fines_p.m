@@ -1,6 +1,7 @@
 function indx = indx_fines_p(f)
-%INDX_FINES_P Esta función retorna el índice para cada tipo de porcentaje de
-%finos de la muestra.
+% INDX_FINES_P Esta función retorna el índice para cada tipo de porcentaje de
+% finos de la muestra.
+%
 %   INDX = INDX_FINES_P(F) retorna el índice asociado al porcentaje F de
 %   finos, el porcentaje debe ser un número entero en el rango 0-100.
 %

@@ -1,6 +1,6 @@
 function generate_groupnames()
-%GENERATE_GROUPNAMES Genera los nombres de los grupos tanto para la arena
-%como para las gravas.
+% GENERATE_GROUPNAMES Genera los nombres de los grupos tanto para la arena
+% como para las gravas.
 %
 % This program is free software; you can redistribute it and/or
 % modify it under the terms of the GNU General Public License

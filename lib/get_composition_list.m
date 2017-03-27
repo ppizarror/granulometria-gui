@@ -1,6 +1,6 @@
 function composition_list = get_composition_list(granulometry_table)
-%GET_COMPOSITION_LIST Retorna la lista de composición de gravas, finos y
-%arenas para una tabla granulométrica.
+% GET_COMPOSITION_LIST Retorna la lista de composición de gravas, finos y
+% arenas para una tabla granulométrica.
 %
 %   COMPOSITION_LIST=GET_COMPOSITION_LIST(GRANULOMETRY_TABLE) retorna la
 %   lista de composición [gravas, arena, fino) a partir de una tabla de

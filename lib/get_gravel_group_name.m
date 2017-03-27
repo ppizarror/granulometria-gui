@@ -1,5 +1,6 @@
 function c = get_gravel_group_name(pfines, cu, cc, fines, psand)
-%GET_GRAVEL_GROUP_NAME Retorna el nombre de grupo de la grava.
+% GET_GRAVEL_GROUP_NAME Retorna el nombre de grupo de la grava.
+%
 %   C = GET_GRAVEL_GROUP_NAME(PFINES, CU, CC, FINES, PSAND)
 %   retorna la clasificación de la grava con PFINES porcentaje de finos, CU
 %   y CC valores del coeficiente de uniformidad y coeficiente de forma,

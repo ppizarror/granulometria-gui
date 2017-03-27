@@ -1,7 +1,7 @@
 function group_name = get_classification_groupname(granulometry_table, fines)
-%GET_CLASSIFICATION_GROUPNAME Retorna el nombre de grupo de un suelo en
-%función de su tabla granulométrica retornada por
-%create_granulometry_table.
+% GET_CLASSIFICATION_GROUPNAME Retorna el nombre de grupo de un suelo en
+% función de su tabla granulométrica retornada por
+% create_granulometry_table.
 %
 %   GROUP_NAME=GET_CLASSIFICATION_GROUPNAME(GRANULOMETRY_TABLE, FINES) retorna el
 %   nombre del grupo de un suelo el cual tiene una tabla granulométrica y

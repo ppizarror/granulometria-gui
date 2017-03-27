@@ -1,6 +1,7 @@
 function list = groupname_creator(n)
-%GROUPNAME_CREATOR Función que retorna una estructura tipo cell para
-%almacenar los tipos de suelos.
+% GROUPNAME_CREATOR Función que retorna una estructura tipo cell para
+% almacenar los tipos de suelos.
+%
 %   LIST = GROUPNAME_CREATOR(N) crea una lista de tamaño N.
 %
 % This program is free software; you can redistribute it and/or

@@ -1,6 +1,7 @@
 function indx = indx_cucc(cu, cc, t)
-%INDX_CUCC Esta función retorna el índice para los valores de Cu y Cc de la
-%muestra.
+% INDX_CUCC Esta función retorna el índice para los valores de Cu y Cc de la
+% muestra.
+%
 %   INDX = INDX_CUCC(CU, CC, T) retorna el índice asociado a los valores del
 %   coeficiente de forma (CU) y coeficiente de uniformidad (CC) En la muestra,
 %   CU y CC deben ser números enteros entre 0 y 100. Si T=0 entonces se

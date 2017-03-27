@@ -1,5 +1,7 @@
 function b = isequal_gs(a, b)
-%ISEQUAL_GS Comprueba si las listas de grupo de símbolo a y b son idénticas
+% ISEQUAL_GS Comprueba si las listas de grupo de símbolo a y b son
+% idénticas.
+%
 %   B = ISEQUAL_GS(A,B) comprueba que las listas A y B de grupo de símbolo
 %   sean idénticas.
 %

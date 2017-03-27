@@ -1,6 +1,7 @@
 function print_cell_table(c)
-%PRINT_CELL_TABLE Imprime en consola una estructura de datos tipo cell con
-%listas.
+% PRINT_CELL_TABLE Imprime en consola una estructura de datos tipo cell con
+% listas.
+%
 %   c: Tabla a imprimir.
 %
 % This program is free software; you can redistribute it and/or

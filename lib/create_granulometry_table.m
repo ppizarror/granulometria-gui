@@ -1,7 +1,7 @@
 function table = create_granulometry_table(data)
-%CREATE_GRANULOMETRY_TABLE Crea la tabla de granulometría a partir de los
-%datos de la granulometría resultantes de la función
-%load_granulometry_data.
+% CREATE_GRANULOMETRY_TABLE Crea la tabla de granulometría a partir de los
+% datos de la granulometría resultantes de la función
+% load_granulometry_data.
 %
 %   TABLE=CREATE_GRANULOMETRY_TABLE(DATA) crea la tabla de granulometría a
 %   partir de los datos granulométricos almacenados en la lista DATA.

@@ -1,6 +1,6 @@
 function v = convert_fraction(f)
-%CONVERT_FRACTION Retorna el valor de una expresión del tipo 'a b/c' o 'a'
-%utilizado en el nombre de las mallas.
+% CONVERT_FRACTION Retorna el valor de una expresión del tipo 'a b/c' o 'a'
+% utilizado en el nombre de las mallas.
 %
 %   V=CONVERT_FRACTION(F) retorna el valor de una expresión del tipo 'a
 %   b/c' o 'a'.

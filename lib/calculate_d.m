@@ -1,5 +1,5 @@
 function d = calculate_d(granulometry_table, n)
-%CALCULATE_D Calcula el valor de D_n para una lista de granulometría.
+% CALCULATE_D Calcula el valor de D_n para una lista de granulometría.
 %
 %   D=CALCULATE_D(GRANULOMETRY_TABLE, N) calcula el valor característico
 %   D_n para una tabla de granulometría GRANULOMETRY_TABLE retornada por la

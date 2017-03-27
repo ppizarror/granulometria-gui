@@ -1,6 +1,6 @@
 function cu = calculate_cu(granulometry_table)
-%CALCULATE_CC Calcula el coeficiente de uniformidad a partir de una tabla de
-%granulometría retornada por create_granulometry_table.
+% CALCULATE_CC Calcula el coeficiente de uniformidad a partir de una tabla de
+% granulometría retornada por create_granulometry_table.
 %
 %   CU = CALCULATE_CU(GRANULOMETRY_TABLE) retorna el valor de coeficiente
 %   de uniformidad a partir de una tabla de granulometría.

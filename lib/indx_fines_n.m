@@ -1,6 +1,7 @@
 function indx = indx_fines_n(n)
-%INDX_FINES_N Esta función retorna el índice para cada nombre del fino
-%presente en la muestra
+% INDX_FINES_N Esta función retorna el índice para cada nombre del fino
+% presente en la muestra.
+%
 %   INDX = INDX_FINES_N(N) retorna el índice asociado al nombre del fino de
 %   la muestra, N debe ser un string.
 %

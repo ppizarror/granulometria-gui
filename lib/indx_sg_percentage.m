@@ -1,6 +1,7 @@
 function indx = indx_sg_percentage(p, t)
-%INDX_SG_PERCENTAGE Retorna el índice asociado a la cantidad de arena o
-%grava presente en la muestra.
+% INDX_SG_PERCENTAGE Retorna el índice asociado a la cantidad de arena o
+% grava presente en la muestra.
+%
 %   INDX = INDX_SG_PERCENTAGE(P, T) retorna el índice asociado a la cantidad
 %   de arena o grava presente en la muestra, P debe estar entre 0 y 100. Si
 %   T=1 el porcentaje medido es arena, si T=0 el porcentaje medido es

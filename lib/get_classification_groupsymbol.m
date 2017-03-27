@@ -1,6 +1,6 @@
 function group_symbol = get_classification_groupsymbol(granulometry_table, fines)
-%GET_CLASSIFICATION_GROUPSYMBOL Retorna el símbolo del grupo de un suelo en
-%función de su tabla granulométrica retornada por create_granulometry_table.
+% GET_CLASSIFICATION_GROUPSYMBOL Retorna el símbolo del grupo de un suelo en
+% función de su tabla granulométrica retornada por create_granulometry_table.
 %
 %   GROUP_SYMBOL=GET_CLASSIFICATION_GROUPSUMBOL(GRANULOMETRY_TABLE, FINES)
 %   retorna el símbolo de grupo de un suelo el cual tiene una tabla

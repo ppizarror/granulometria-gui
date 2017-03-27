@@ -1,5 +1,7 @@
 function b = isequal_gn(a, b)
-%ISEQUAL_GN Comprueba si las listas de nombre de grupo a y b son idénticas
+% ISEQUAL_GN Comprueba si las listas de nombre de grupo a y b son
+% idénticas.
+%
 %   B = ISEQUAL_GN(A,B) comprueba que las listas A y B de grupo sean
 %   idénticas.
 %

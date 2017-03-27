@@ -1,6 +1,6 @@
 function cc = calculate_cc(granulometry_table)
-%CALCULATE_CC Calcula el coeficiente de forma a partir de una tabla de
-%granulometría retornada por create_granulometry_table.
+% CALCULATE_CC Calcula el coeficiente de forma a partir de una tabla de
+% granulometría retornada por create_granulometry_table.
 %
 %   CC = CALCULATE_CC(GRANULOMETRY_TABLE) retorna el valor de coeficiente
 %   de forma a partir de una tabla de granulometría.

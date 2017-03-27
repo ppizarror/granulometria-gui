@@ -1,6 +1,6 @@
 function generate_sand_groupname()
-%GENERATE_GRAVEL_GROUPNAME Esta Función retorna una lista tipo cell la cual
-%contiene todos los parámetros asociados a las arenas y su clasificación.
+% GENERATE_GRAVEL_GROUPNAME Esta Función retorna una lista tipo cell la cual
+% contiene todos los parámetros asociados a las arenas y su clasificación.
 %
 % This program is free software; you can redistribute it and/or
 % modify it under the terms of the GNU General Public License

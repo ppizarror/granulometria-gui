@@ -1,5 +1,6 @@
 function table = load_granulometry_table(file)
-%LOAD_GRANULOMETRY_TABLE Retorna una tabla cargada a partir de un archivo.
+% LOAD_GRANULOMETRY_TABLE Retorna una tabla cargada a partir de un archivo.
+%
 %   LIST = LOAD_GRANULOMETRY_TABLE(FILE) carga el archivo file y retorna una
 %   tabla granulométrica.
 %

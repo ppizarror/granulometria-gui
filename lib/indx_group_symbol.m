@@ -1,6 +1,7 @@
 function indx = indx_group_symbol(s, t)
-%INDX_GROUP_SYMBOL Esta función retorna el índice para cada símbolo de
-%grupo.
+% INDX_GROUP_SYMBOL Esta función retorna el índice para cada símbolo de
+% grupo.
+%
 %   INDX = INDX_GROUP_SYMBOL(S,T) retorna el índice asociado al símbolo del
 %   grupo S para el tipo T.
 %

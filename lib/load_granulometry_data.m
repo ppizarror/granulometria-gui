@@ -1,6 +1,6 @@
 function list = load_granulometry_data(file)
-%LOAD_GRANULOMETRY_DATA Carga un archivo con datos de los resultados
-%granulométricos y retorna una lista formateada.
+% LOAD_GRANULOMETRY_DATA Carga un archivo con datos de los resultados
+% granulométricos y retorna una lista formateada.
 %
 %   LIST = LOAD_GRANULOMETRY_DATA(FILE) carga el archivo file y retorna una
 %   lista con valores.

@@ -1,5 +1,6 @@
 function s = symbol_group_indx(indx)
-%SYMBOL_GROUP_INDX retorna el nombre del símbolo del grupo.
+% SYMBOL_GROUP_INDX retorna el nombre del símbolo del grupo.
+%
 %   S = SYMBOL_GROUP_INDX(INDX) retorna el string del símbolo del grupo
 %   para un índice INDX.
 %

@@ -1,6 +1,6 @@
 function plot_granulometry_table(granulometry_table, diameter_scale)
-%PLOT_GRANULOMETRY_TABLE plotea el gráfico de la granulometría a partir de
-%una tabla granulométrica retornada por create_granulometry_table.
+% PLOT_GRANULOMETRY_TABLE plotea el gráfico de la granulometría a partir de
+% una tabla granulométrica retornada por create_granulometry_table.
 %
 %   granulometry_table: Tabla granulométrica resultante de
 %   create_granulometry_table.

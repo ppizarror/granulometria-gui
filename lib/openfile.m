@@ -87,5 +87,6 @@ end
 
 %% Plotea la curva
 axes(handles.grafico);
-plot_granulometry_table(tabla, 'mm');
+plot_granulometry_table(tabla, 'mm', lang);
+set(handles.menu_save_plot, 'Enable', 'on');
 

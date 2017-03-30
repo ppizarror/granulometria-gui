@@ -22,7 +22,7 @@ function varargout = main(varargin)
 
 % Edit the above text to modify the response to help main
 
-% Last Modified by GUIDE v2.5 29-Mar-2017 23:44:40
+% Last Modified by GUIDE v2.5 30-Mar-2017 00:49:29
 
 % Begin initialization code - DO NOT EDIT
 gui_Singleton = 1;
@@ -117,6 +117,12 @@ set(handles.txt_tipofino, 'String', lang{17});
 set(handles.panel_classification, 'Title', lang{18});
 set(handles.info_simbologrupo, 'String', lang{20});
 set(handles.info_nombregrupo, 'String', lang{21});
+set(handles.menu_file, 'Label', lang{34});
+set(handles.menu_help, 'Label', lang{35});
+set(handles.menu_open, 'Label', lang{4});
+set(handles.menu_save_plot, 'Label', lang{25});
+set(handles.menu_close, 'Label', lang{26});
+set(handles.menu_about, 'Label', lang{27});
 
 % Elimina el estado
 clear_status(handles, lang);
@@ -150,7 +156,6 @@ function buttonload_Callback(hObject, eventdata, handles)
 % hObject    handle to buttonload (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-
 openfile(handles, getappdata(handles.root, 'lang'));
 
 
@@ -204,3 +209,51 @@ function tipofino_CreateFcn(hObject, eventdata, handles)
 if ispc && isequal(get(hObject, 'BackgroundColor'), get(0, 'defaultUicontrolBackgroundColor'))
     set(hObject, 'BackgroundColor', 'white');
 end
+
+
+% --------------------------------------------------------------------
+function menu_file_Callback(hObject, eventdata, handles)
+% hObject    handle to menu_file (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+% --------------------------------------------------------------------
+function menu_help_Callback(hObject, eventdata, handles)
+% hObject    handle to menu_help (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+
+
+% --------------------------------------------------------------------
+function menu_about_Callback(hObject, eventdata, handles)
+% hObject    handle to menu_about (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+about(getappdata(handles.root, 'lang'));
+
+
+% --------------------------------------------------------------------
+function menu_open_Callback(hObject, eventdata, handles)
+% hObject    handle to menu_open (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+openfile(handles, getappdata(handles.root, 'lang'));
+
+
+% --------------------------------------------------------------------
+function menu_save_plot_Callback(hObject, eventdata, handles)
+% hObject    handle to menu_save_plot (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+figure();
+plot_granulometry_table(getappdata(handles.root, 'table'), 'mm', getappdata(handles.root, 'lang'));
+axes(handles.grafico);
+
+
+% --------------------------------------------------------------------
+function menu_close_Callback(hObject, eventdata, handles)
+% hObject    handle to menu_close (see GCBO)
+% eventdata  reserved - to be defined in a future version of MATLAB
+% handles    structure with handles and user data (see GUIDATA)
+close;

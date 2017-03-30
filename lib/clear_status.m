@@ -38,5 +38,10 @@ set(handles.info_nombregrupo_value, 'String', '');
 set(handles.tipofino, 'String', {''});
 set(handles.tipofino, 'Enable', 'off');
 
+%% Elimina el gráfico
+set(handles.menu_save_plot, 'Enable', 'off');
+axes(handles.grafico);
+cla reset;
+
 end
 

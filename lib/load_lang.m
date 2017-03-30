@@ -106,38 +106,38 @@ list{23, 2} = 'Particle diameter [mm]';
 list{24, 1} = 'Porcentaje que pasa [%]';
 list{24, 2} = 'Passing percentage [%]';
 
-list{25, 1} = '';
-list{25, 2} = '';
+list{25, 1} = 'Guardar gráfico';
+list{25, 2} = 'Save plot';
 
-list{26, 1} = '';
-list{26, 2} = '';
+list{26, 1} = 'Salir';
+list{26, 2} = 'Exit';
 
-list{27, 1} = '';
-list{27, 2} = '';
+list{27, 1} = 'Acerca de';
+list{27, 2} = 'About';
 
-list{28, 1} = '';
-list{28, 2} = '';
+list{28, 1} = 'Autor: Pablo Pizarro @ppizarror.com, 2017.';
+list{28, 2} = 'Author: Pablo Pizarro @ppizarror.com, 2017.';
 
-list{29, 1} = '';
-list{29, 2} = '';
+list{29, 1} = 'Agradecimientos a: Felipe Ochoa.';
+list{29, 2} = 'Thanks to: Felipe Ochoa.';
 
-list{30, 1} = '';
-list{30, 2} = '';
+list{30, 1} = 'Licencia: GPL-2.0';
+list{30, 2} = 'Licence: GLP-2.0';
 
-list{31, 1} = '';
-list{31, 2} = '';
+list{31, 1} = 'Versión del software: %.1f';
+list{31, 2} = 'Software version: %.1f';
 
-list{32, 1} = '';
-list{32, 2} = '';
+list{32, 1} = 'Web del proyecto: https://github.com/ppizarror/granulometria-gui';
+list{32, 2} = 'Project website: https://github.com/ppizarror/granulometria-gui';
 
-list{33, 1} = '';
-list{33, 2} = '';
+list{33, 1} = 'Granulometria es un programa en matlab que calcula parámetros y establece clasificación para una muestra de suelo.';
+list{33, 2} = 'Granulometry is an matlab software that calculate parameters and set classification of a soil.';
 
-list{34, 1} = '';
-list{34, 2} = '';
+list{34, 1} = 'Archivo';
+list{34, 2} = 'File';
 
-list{35, 1} = '';
-list{35, 2} = '';
+list{35, 1} = 'Ayuda';
+list{35, 2} = 'Help';
 
 list{36, 1} = '';
 list{36, 2} = '';

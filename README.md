@@ -20,6 +20,9 @@ La tabla debe ser similar en forma al archivo de ejemplo `examples/data1.xslx`, 
 |... | ... | ... |
 |Receptaculo |     |    239|
 
+## Licencia
+Este proyecto está licenciado bajo GPLv2 (GNU General Public License, version 2) [https://www.gnu.org/licenses/gpl-2.0.html][5].
+
 ## Autor
 Pablo Pizarro, 2016-2017.
 

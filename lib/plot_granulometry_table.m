@@ -1,4 +1,4 @@
-function plot_granulometry_table(granulometry_table, diameter_scale)
+function plot_granulometry_table(granulometry_table, diameter_scale, lang) %#ok<*INUSL>
 % PLOT_GRANULOMETRY_TABLE plotea el gráfico de la granulometría a partir de
 % una tabla granulométrica retornada por create_granulometry_table.
 %
@@ -33,9 +33,9 @@ end
 semilogx(x, y, '-s', 'color', [0.5, 0.5, 0.5], 'LineWidth', 2, 'MarkerFaceColor', [.5, .5, .5], 'MarkerSize', 5);
 ylim([0, 100]);
 grid
-xlabel(['Tamaño de partícula [', diameter_scale, ']']);
-ylabel('Porcentaje que pasa Pi [%]');
-title('Curva granulométrica');
+xlabel(lang{23});
+ylabel(lang{24});
+title(lang{22});
 
 end
 

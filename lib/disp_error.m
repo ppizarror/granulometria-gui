@@ -1,5 +1,8 @@
-% CONFIG
-% Archivo de configuraciones
+function disp_error(handles, msgid, titleid, lang)
+% DISP ERROR
+% Muestra un error en pantalla.
+%
+% Author: Pablo Pizarro @ppizarror.com, 2017.
 %
 % This program is free software; you can redistribute it and/or
 % modify it under the terms of the GNU General Public License
@@ -15,25 +18,20 @@
 % along with this program; if not, write to the Free Software
 % Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
-%% Configuración de ventanas
+% Config import
+config;
 
-% Activa el sonido in-app
-app_sound = true;
+% Clear status
+clear_status(handles, lang);
 
-% Idioma de la aplicación, 1: Español, 2: English
-lang_id = 1;
+% Set error
+set(handles.root, 'pointer', 'arrow');
+errordlg(lang{msgid}, lang{titleid});
 
+% Sound
+if app_sounds
+    beep;
+end
 
-%% Configuración de la solución
+end
 
-% Indica que se decrece en número de malla
-decr = true;
-
-% Indica si la primera línea del excel es validada
-header_line_validated = false;
-
-
-%% Configuración de los archivos
-
-% Recuerda la última carpeta abierta
-remember_last_folder = false;

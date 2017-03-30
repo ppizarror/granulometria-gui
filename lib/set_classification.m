@@ -1,5 +1,6 @@
-% CONFIG
-% Archivo de configuraciones
+function set_classification(handles)
+% SET CLASSIFICATION
+% Establece la clasificación de suelos gruesos
 %
 % This program is free software; you can redistribute it and/or
 % modify it under the terms of the GNU General Public License
@@ -15,25 +16,17 @@
 % along with this program; if not, write to the Free Software
 % Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
-%% Configuración de ventanas
+%% Obtiene las variables
+fines = getappdata(handles.root, 'fines');
+table = getappdata(handles.root, 'table');
 
-% Activa el sonido in-app
-app_sound = true;
+%% Obtiene clasificación
+symbol = get_classification_groupsymbol(table, fines);
+name = get_classification_groupname(table, fines);
 
-% Idioma de la aplicación, 1: Español, 2: English
-lang_id = 1;
+%% Establece la clasificación
+set(handles.info_simbologrupo_value, 'String', symbol);
+set(handles.info_nombregrupo_value, 'String', name);
 
+end
 
-%% Configuración de la solución
-
-% Indica que se decrece en número de malla
-decr = true;
-
-% Indica si la primera línea del excel es validada
-header_line_validated = false;
-
-
-%% Configuración de los archivos
-
-% Recuerda la última carpeta abierta
-remember_last_folder = false;

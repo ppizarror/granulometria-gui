@@ -34,77 +34,77 @@ for j = 1:LANG_ENTRIES
 end
 
 %% Se añaden los strings a las listas
-list{1, 1} = '';
-list{1, 2} = '';
+list{1, 1} = 'Granulometría';
+list{1, 2} = 'Granulometry';
 
-list{2, 1} = '';
-list{2, 2} = '';
+list{2, 1} = 'Archivos Excel (*.xlsx, *.xls)';
+list{2, 2} = 'Excel files (*.xlsx, *.xls)';
 
-list{3, 1} = '';
-list{3, 2} = '';
+list{3, 1} = 'Cargar un archivo de granulometría';
+list{3, 2} = 'Load a granulometry file';
 
-list{4, 1} = '';
-list{4, 2} = '';
+list{4, 1} = 'Abrir archivo';
+list{4, 2} = 'Open file';
 
-list{5, 1} = '';
-list{5, 2} = '';
+list{5, 1} = 'Error';
+list{5, 2} = 'Error';
 
-list{6, 1} = '';
-list{6, 2} = '';
+list{6, 1} = 'Error al cargar el archivo Excel.';
+list{6, 2} = 'Error when opening Excel file.';
 
-list{7, 1} = '';
-list{7, 2} = '';
+list{7, 1} = 'Propiedades';
+list{7, 2} = 'Properties';
 
-list{8, 1} = '';
-list{8, 2} = '';
+list{8, 1} = 'Peso: ';
+list{8, 2} = 'Weight: ';
 
-list{9, 1} = '';
-list{9, 2} = '';
+list{9, 1} = 'Grava (%): ';
+list{9, 2} = 'Gravel (%): ';
 
-list{10, 1} = '';
-list{10, 2} = '';
+list{10, 1} = 'Fino (%): ';
+list{10, 2} = 'Clay (%): ';
 
-list{11, 1} = '';
-list{11, 2} = '';
+list{11, 1} = 'Arena (%): ';
+list{11, 2} = 'Sand (%): ';
 
-list{12, 1} = '';
-list{12, 2} = '';
+list{12, 1} = 'Cc: ';
+list{12, 2} = 'Cc: ';
 
-list{13, 1} = '';
-list{13, 2} = '';
+list{13, 1} = 'Cu: ';
+list{13, 2} = 'Cu: ';
 
-list{14, 1} = '';
-list{14, 2} = '';
+list{14, 1} = 'd10: ';
+list{14, 2} = 'd10: ';
 
-list{15, 1} = '';
-list{15, 2} = '';
+list{15, 1} = 'd30: ';
+list{15, 2} = 'd30: ';
 
-list{16, 1} = '';
-list{16, 2} = '';
+list{16, 1} = 'd60: ';
+list{16, 2} = 'd60: ';
 
-list{17, 1} = '';
-list{17, 2} = '';
+list{17, 1} = 'Tipo de fino: ';
+list{17, 2} = 'Type of clay: ';
 
-list{18, 1} = '';
-list{18, 2} = '';
+list{18, 1} = 'Clasificación suelo grueso';
+list{18, 2} = 'Thick soil classification';
 
-list{19, 1} = '';
-list{19, 2} = '';
+list{19, 1} = 'Seleccione un tipo';
+list{19, 2} = 'Select a type';
 
-list{20, 1} = '';
-list{20, 2} = '';
+list{20, 1} = 'Símbolo de grupo: ';
+list{20, 2} = 'Group symbol: ';
 
-list{21, 1} = '';
-list{21, 2} = '';
+list{21, 1} = 'Nombre de grupo: ';
+list{21, 2} = 'Group name: ';
 
-list{22, 1} = '';
-list{22, 2} = '';
+list{22, 1} = 'Curva granulométrica';
+list{22, 2} = 'Granulometric curve';
 
-list{23, 1} = '';
-list{23, 2} = '';
+list{23, 1} = 'Tamaño de partícula [mm]';
+list{23, 2} = 'Particle diameter [mm]';
 
-list{24, 1} = '';
-list{24, 2} = '';
+list{24, 1} = 'Porcentaje que pasa [%]';
+list{24, 2} = 'Passing percentage [%]';
 
 list{25, 1} = '';
 list{25, 2} = '';

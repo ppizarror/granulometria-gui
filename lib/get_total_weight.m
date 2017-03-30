@@ -1,5 +1,5 @@
-% CONFIG
-% Archivo de configuraciones
+function w = get_total_weight(granulometry_table)
+% GET_TOTAL_WEIGHT Obtiene el peso total de la muestra.
 %
 % This program is free software; you can redistribute it and/or
 % modify it under the terms of the GNU General Public License
@@ -15,25 +15,10 @@
 % along with this program; if not, write to the Free Software
 % Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
-%% Configuración de ventanas
+w = 0.0;
+for i = 1:length(granulometry_table) - 1
+    w = w + granulometry_table{i}(3);
+end
 
-% Activa el sonido in-app
-app_sound = true;
+end
 
-% Idioma de la aplicación, 1: Español, 2: English
-lang_id = 1;
-
-
-%% Configuración de la solución
-
-% Indica que se decrece en número de malla
-decr = true;
-
-% Indica si la primera línea del excel es validada
-header_line_validated = false;
-
-
-%% Configuración de los archivos
-
-% Recuerda la última carpeta abierta
-remember_last_folder = false;

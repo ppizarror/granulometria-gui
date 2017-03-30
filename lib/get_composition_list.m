@@ -29,14 +29,15 @@ config;
 %% Se obtiene el total de gravas
 try
     total_gravel = 0;
+    decr = true;
     for i = 1:length(granulometry_table) - 1
-        if granulometry_table{i}(1) < granulometry_table{i+1}(1)
+        if granulometry_table{i}(1) < granulometry_table{i+1}(1) && decr
             decr = false;
         end
-        if and(granulometry_table{i+1}(1) > 4, ~decr);
+        total_gravel = total_gravel + granulometry_table{i}(4);
+        if and(granulometry_table{i+1}(1) > 4, ~decr)
             break
         end
-        total_gravel = total_gravel + granulometry_table{i}(4);
     end
 catch
     disp('Error when calculating total gravel in granulometry table.');

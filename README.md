@@ -18,7 +18,7 @@ La tabla debe ser similar en forma al archivo de ejemplo `examples/data1.xslx`, 
 |#10 | 2     |    750 |
 |#20 | 0.85     |    405 |
 |... | ... | ... |
-|Receptaculo |     |    239|
+|Receptáculo |     |    239|
 
 ## Licencia
 Este proyecto está licenciado bajo GPLv2 (GNU General Public License, version 2) [https://www.gnu.org/licenses/gpl-2.0.html].

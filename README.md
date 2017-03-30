@@ -9,7 +9,7 @@ Programa en matlab que genera la curva granulométrica y entrega otras propiedad
 
 Al descargar el programa se debe ejecutar el archivo **main.m**. Una vez dentro de la aplicación se puede abrir un archivo *Excel* con la tabla granulométrica creada en laboratorio.
 
-La tabla debe ser similar en forma al archivo de ejemplo '''examples/data1.xslx'''
+La tabla debe ser similar en forma al archivo de ejemplo --examples/data1.xslx--
 
 ## Autor
 Pablo Pizarro, 2016-2017.

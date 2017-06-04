@@ -18,7 +18,7 @@
 %% Configuración de ventanas
 
 % Activa el sonido in-app
-app_sound = true;
+app_sounds = true;
 
 % Idioma de la aplicación, 1: Español, 2: English
 lang_id = 1;

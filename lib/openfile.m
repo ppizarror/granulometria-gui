@@ -47,7 +47,7 @@ end
 %% Se escribe el nombre del archivo cargado in-app
 filename = filename(max(0, length(filename) - 38):end);
 filename = strcat('...', filename);
-filename = strcat(filename, ' ');
+filename = strcat(filename, '  ');
 set(handles.filelabel, 'String', filename);
 
 %% Se crea la tabla granulométrica

@@ -246,9 +246,12 @@ function menu_save_plot_Callback(hObject, eventdata, handles)
 % hObject    handle to menu_save_plot (see GCBO)
 % eventdata  reserved - to be defined in a future version of MATLAB
 % handles    structure with handles and user data (see GUIDATA)
-figure();
+f = figure();
+set(f, 'visible', 'off');
 plot_granulometry_table(getappdata(handles.root, 'table'), 'mm', getappdata(handles.root, 'lang'));
 axes(handles.grafico);
+movegui(f, 'center');
+set(f, 'visible', 'on');
 
 
 % --------------------------------------------------------------------

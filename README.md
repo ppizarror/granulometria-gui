@@ -1,4 +1,4 @@
-# Granulometría
+# Granulometría GUI
 [![@ppizarror](http://ppizarror.com/resources/images/autor.svg)](http://ppizarror.com)
 [![Licencia GPL](http://ppizarror.com/resources/images/licenciagpl2.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.html)
 

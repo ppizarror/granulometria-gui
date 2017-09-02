@@ -5,7 +5,7 @@
 Programa en matlab que genera la curva granulométrica y entrega otras propiedades del suelo, así como permite obtener la clasificación del suelo.
 
 <p align="center">
-<img src="https://raw.githubusercontent.com/ppizarror/ppizarror.github.io/master/resources/images/granulometria/captura1.PNG" width="50%px" height="50%px">
+<img src="http://ppizarror.com/resources/images/granulometria/captura1.PNG" width="70%px">
 </p>
 
 ## Uso

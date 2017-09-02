@@ -27,8 +27,6 @@ La tabla debe ser similar en forma al archivo de ejemplo `examples/data1.xslx`, 
 Este proyecto está licenciado bajo GPLv2 (GNU General Public License, version 2) [https://www.gnu.org/licenses/gpl-2.0.html].
 
 ## Autor
-Pablo Pizarro, 2016-2017.
-
-Si tienes alguna sugerencia envíame un correo a: [pablo.pizarro@ing.uchile.cl](mailto:pablo.pizarro@ing.uchile.cl), o sencillamente ten la libertad de enviar un _pull request_.
+<a href="http://ppizarror.com">Pablo Pizarro R.</a>, 2016-2017.
 
 Agradecimientos a Felipe Ochoa.

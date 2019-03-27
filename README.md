@@ -1,12 +1,12 @@
 <h1 align="center">
-  <a href="http://ppizarror.com/granulometria-gui/" title="Granulometría GUI">
-    <img alt="Granulometría GUI" src="http://ppizarror.com/resources/other/matlab.png" width="200px" height="200px" />
+  <a href="https://ppizarror.com/granulometria-gui/" title="Granulometría GUI">
+    <img alt="Granulometría GUI" src="https://ppizarror.com/resources/other/matlab.png" width="200px" height="200px" />
   </a>
   <br /><br />
   Granulometría GUI</h1>
 <p align="center">Programa en matlab que genera la curva granulométrica y entrega otras propiedades del suelo</p>
-<div align="center"><a href="http://ppizarror.com"><img alt="@ppizarror" src="http://ppizarror.com/badges/autor.svg" /></a>
-<a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"><img alt="GPL V2.0" src="http://ppizarror.com/badges/licenciagpl2.svg" /></a>
+<div align="center"><a href="https://ppizarror.com"><img alt="@ppizarror" src="https://ppizarror.com/badges/autor.svg" /></a>
+<a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html"><img alt="GPL V2.0" src="https://ppizarror.com/badges/licenciagpl2.svg" /></a>
 </div><br />
 
 <p align="center">
@@ -31,4 +31,4 @@ La tabla debe ser similar en forma al archivo de ejemplo `examples/data1.xslx`, 
 Este proyecto está licenciado bajo GPLv2 [https://www.gnu.org/licenses/gpl-2.0.html]
 
 ## Autor
-<a href="http://ppizarror.com" title="ppizarror">Pablo Pizarro R.</a> | 2016 - 2017
+<a href="https://ppizarror.com" title="ppizarror">Pablo Pizarro R.</a> | 2016 - 2019

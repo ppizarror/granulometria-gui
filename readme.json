@@ -2,19 +2,19 @@
     "PROJECT": {
         "NAME": "Granulometría GUI",
         "ICON": {
-            "IMAGE": "http://ppizarror.com/resources/other/matlab.png",
+            "IMAGE": "https://ppizarror.com/resources/other/matlab.png",
             "ALT": "Granulometría GUI",
             "WIDTH": 200,
             "HEIGHT": 200
         },
-        "URL": "http://ppizarror.com/granulometria-gui/",
+        "URL": "https://ppizarror.com/granulometria-gui/",
         "URL_TITLE": "Granulometría GUI"
     },
     "AUTHOR": {
         "NAME": "Pablo Pizarro R.",
-        "URL": "http://ppizarror.com",
+        "URL": "https://ppizarror.com",
         "ALT": "ppizarror",
-        "DATE": "2016 - 2017",
+        "DATE": "2016 - 2019",
         "SECTION": {
             "TITLE": "Autor",
             "SHOW": true
@@ -23,12 +23,12 @@
     "DESCRIPTION": "Programa en matlab que genera la curva granulométrica y entrega otras propiedades del suelo",
     "BADGES": {
         "0": {
-            "IMAGE": "http://ppizarror.com/badges/autor.svg",
-            "HREF": "http://ppizarror.com",
+            "IMAGE": "https://ppizarror.com/badges/autor.svg",
+            "HREF": "https://ppizarror.com",
             "ALT": "@ppizarror"
         },
         "1": {
-            "IMAGE": "http://ppizarror.com/badges/licenciagpl2.svg",
+            "IMAGE": "https://ppizarror.com/badges/licenciagpl2.svg",
             "HREF": "https://www.gnu.org/licenses/old-licenses/gpl-2.0.html",
             "ALT": "GPL V2.0"
         }

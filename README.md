@@ -32,6 +32,6 @@ La tabla debe ser similar en forma al archivo de ejemplo `examples/data1.xslx`, 
 
 Este proyecto está licenciado bajo GPLv2 [https://www.gnu.org/licenses/gpl-2.0.html]
 
-
 ## Autor
-<a href="https://ppizarror.com" title="ppizarror">Pablo Pizarro R.</a> | 2016 - 2019
+
+[Pablo Pizarro R.](https://ppizarror.com) | 2016 - 2019
